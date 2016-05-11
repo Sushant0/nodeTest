@@ -1,29 +1,28 @@
 {
   "name": "node-js-sample",
-  "version": "0.2.0",
-  "description": "A sample Node.js app using Express 4",
+  "version": "0.0.1",
+  "description": "A sample Node.js app",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.13.3"
   },
   "engines": {
-    "node": "4.0.0"
+    "node": "v0.10.13"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
+    "url": "https://github.com/Sushant0/nodeTest"
   },
   "keywords": [
     "node",
     "heroku",
     "express"
   ],
-  "author": "Mark Pundsack",
+  "author": "Sushant kumar",
   "contributors": [
-    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
+    "Sushant kumar <sushant@freshdesk.com>"
   ],
   "license": "MIT"
 }
