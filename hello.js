@@ -7,4 +7,4 @@ var server = http.createServer(function(request,response){
 });
 
 server.listen(5000 || process.env.PORT);
-console.log('hello world');
+console.log('hello world' + process.env.PORT);
