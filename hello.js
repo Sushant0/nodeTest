@@ -6,5 +6,9 @@ var server = http.createServer(function(request,response){
 	response.end();
 });
 
-server.listen(5000 || process.env.PORT);
+// http.set('port', (process.env.PORT || 5000));
+var PORT = (process.env.PORT || 5000);
+server.listen(PORT,function(){
+	console.log("Server listening on: http://localhost:%s", PORT);
+});
 console.log('hello world' + process.env.PORT);
