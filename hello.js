@@ -19,7 +19,7 @@ console.log('hello world' + process.env.PORT + connectionString + pg);
 
 var client = new pg.Client(connectionString);
 client.connect();
-var query1 = client.query('CREATE TABLE IF NOT EXISTS menu_table(day int not null, time int not null, menu text, PRIMARY KEY(day, which_food))');
+var query1 = client.query('CREATE TABLE IF NOT EXISTS menu_table(day int not null, time int not null, menu text, PRIMARY KEY(day, menu))');
 query1.on('end', function() {
    console.log("Menu today table successfully created");
 });
