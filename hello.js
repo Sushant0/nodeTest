@@ -10,7 +10,7 @@ var server = http.createServer(function(request,response){
 // http.set('port', (process.env.PORT || 5000));
 // postgres://fkfzvpdebvbzdh:qICgOMOWPnx9IPifa2@*HOST*:*PORT:/*DATABASE*
 var PORT = (process.env.PORT || 5000);
-var connectionString = "postgres://fkfzvpdebvbzdh:qICgOMOWPnx9IPifa2-FqZDoBE@ec2-54-243-249-165.compute-1.amazonaws.com:5432/dei9lujiig8mcj";
+var connectionString = "postgres://sthfswbphacqai:tBOuJcwoSwBfzfqOP4fH7f_ryJ@ec2-54-243-249-149.compute-1.amazonaws.com:5432/d1bdklhat9hss8";
 
 server.listen(PORT,function(){
 	console.log("Server listening on: http://localhost:%s %s", PORT , connectionString);
