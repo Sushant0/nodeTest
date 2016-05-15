@@ -1,2 +1,2 @@
-web: node hello.js
+web: npm start
 
